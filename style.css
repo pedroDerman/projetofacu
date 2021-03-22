@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+body{
+    background-image: url(imagens/code-1839406_1280.jpg);
+ 
+}
+
+h1{
+    font-family: "Syne Mono" ;
+    background-color:blueviolet;
+    text-align: center;
+    font-size: 60px;
+  
+}

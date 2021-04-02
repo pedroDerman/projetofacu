@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body{
+    background-color: aquamarine
+}
+
+h1{
+    background-color:;
+    font-size:50px;
+    text-align: center;
+    font-family: initial
+    ;
+    
+}
+ul{
+    position: relative;
+    top: -200px;       /*superior*/          
+    right:0px;    /*direita*/
+    bottom:0px;   /*inferior*/
+    left:150px;        /*esquerda*/
+    
+}
+
+form{
+    position: relative;
+    top:100px;        /*superior*/   
+    right:px;      /*direita*/
+    bottom: 0px;    /*inferior*/
+    left: 750px;      /*esquerda*/
+
+
+
+  
+ 
+  
+    
+   
+}
+.botao{
+    padding-top: 25px;
+    
+    
+
+}

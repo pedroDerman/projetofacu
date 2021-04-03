@@ -18,6 +18,8 @@ h1{
 }
 
 .fundo{
+    opacity: 0.7;
+    background-color: black;
    
 
 }
@@ -25,10 +27,10 @@ h1{
 form{
     position: absolute;
     top: 200px;
-    left: 850px;
+    left: 600px;
     font-family: Roboto Mono;
     font-size: 20px;
-    
+    margin:0;
 }
 
 
@@ -37,7 +39,7 @@ ul{
     top:200px;
     left: 100px;
     font-family: Roboto Mono;
-    font-size:30px ;
+    font-size:25px ;
     list-style-type: none;
     
 
@@ -49,6 +51,7 @@ ul{
     font-family: Roboto Mono;
     color: gold;
     border: none;
+    border-radius: 20px;
     padding: 5px 15px ;
     text-align: center;
     font-size: 20px;
@@ -56,10 +59,10 @@ ul{
     display: inline-block;
     margin: 15px 9px;
     cursor: pointer;
+    
 }
 
 .material-icons{
-    font-size:48dp;
     color: white;
     
 }

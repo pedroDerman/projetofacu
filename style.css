@@ -1,44 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-body{
-    background-color: aquamarine
+*{
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     
-    font-size:50px;
+    font-size:70px;
     text-align: center;
-    font-family: initial
-    ;
-    
+    font-family:Bebas Neue;
+    border-style:none none solid ;
+    background-color: black;
+    color:gold;
+    letter-spacing: 3px;
 }
-ul{
-    position: relative;
-    top: -200px;       /*superior*/          
-    right:0px;    /*direita*/
-    bottom:0px;   /*inferior*/
-    left:150px;        /*esquerda*/
-    
+
+.fundo{
+   
+
 }
 
 form{
-    position: relative;
-    top:100px;        /*superior*/   
-    right:px;      /*direita*/
-    bottom: 0px;    /*inferior*/
-    left: 750px;      /*esquerda*/
-
-
-
-  
- 
-  
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    font-family: Roboto Mono;
+    font-size: 20px;
     
-   
 }
+
+
+ul{
+    position: absolute;
+    top:200px;
+    left: 100px;
+    font-family: Roboto Mono;
+    font-size:30px ;
+    list-style-type: none;
+    
+
+
+}
+
 .botao{
-    padding-top: 25px;
-    
-    
-
+    background-color:black;
+    font-family: Roboto Mono;
+    color: gold;
+    border: none;
+    padding: 5px 15px ;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 9px;
+    cursor: pointer;
 }
+
+.material-icons{
+    font-size:48dp;
+    color: white;
+    
+}
+
